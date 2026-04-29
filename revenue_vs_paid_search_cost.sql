@@ -16,7 +16,7 @@ join `DA.order` o
 on p.item_id = o.item_id
 join `DA.session` s
 on o.ga_session_id = s.ga_session_id
-GROUP BY 1,2
+GROUP BY 1, 2
 
 UNION ALL
 
